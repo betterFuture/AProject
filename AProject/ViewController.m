@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"第一次修改");
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

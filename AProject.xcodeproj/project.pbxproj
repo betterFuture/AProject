@@ -81,6 +81,16 @@
 		34C0CB501B3C295200B323C2 /* AProject */ = {
 			isa = PBXGroup;
 			children = (
+				34C0CB821B3C2ADB00B323C2 /* Vendors */,
+				34C0CB811B3C2AC800B323C2 /* Supporting Files */,
+				34C0CB801B3C2AB300B323C2 /* UserInterface */,
+				34C0CB7F1B3C2AA000B323C2 /* Sections */,
+				34C0CB7E1B3C2A9700B323C2 /* Resources */,
+				34C0CB7D1B3C2A8E00B323C2 /* Models */,
+				34C0CB7C1B3C2A8700B323C2 /* Macro */,
+				34C0CB7B1B3C2A7E00B323C2 /* Helpers */,
+				34C0CB7A1B3C2A7400B323C2 /* General */,
+				34C0CB791B3C2A5D00B323C2 /* AppDelegate */,
 				34C0CB551B3C295200B323C2 /* AppDelegate.h */,
 				34C0CB561B3C295200B323C2 /* AppDelegate.m */,
 				34C0CB581B3C295200B323C2 /* ViewController.h */,
@@ -117,6 +127,100 @@
 				34C0CB6C1B3C295200B323C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34C0CB791B3C2A5D00B323C2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		34C0CB7A1B3C2A7400B323C2 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		34C0CB7B1B3C2A7E00B323C2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		34C0CB7C1B3C2A8700B323C2 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		34C0CB7D1B3C2A8E00B323C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		34C0CB7E1B3C2A9700B323C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		34C0CB7F1B3C2AA000B323C2 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				34C0CB851B3C2B2300B323C2 /* Advise */,
+				34C0CB841B3C2B1D00B323C2 /* login */,
+				34C0CB831B3C2AFF00B323C2 /* main  */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		34C0CB801B3C2AB300B323C2 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		34C0CB811B3C2AC800B323C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34C0CB821B3C2ADB00B323C2 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		34C0CB831B3C2AFF00B323C2 /* main  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "main ";
+			sourceTree = "<group>";
+		};
+		34C0CB841B3C2B1D00B323C2 /* login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		34C0CB851B3C2B2300B323C2 /* Advise */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Advise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = AProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = AProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
