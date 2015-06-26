@@ -37,6 +37,7 @@
 		34B95C3F1B3D4957004CD9A4 /* SpecificViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecificViewController.m; sourceTree = "<group>"; };
 		34B95C411B3D49A3004CD9A4 /* ClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyViewController.h; sourceTree = "<group>"; };
 		34B95C421B3D49A3004CD9A4 /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyViewController.m; sourceTree = "<group>"; };
+		34B95C441B3D55CF004CD9A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		34C0CB4E1B3C295200B323C2 /* AProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C0CB521B3C295200B323C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C0CB531B3C295200B323C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 				34C0CB791B3C2A5D00B323C2 /* AppDelegate */,
 				34C0CB551B3C295200B323C2 /* AppDelegate.h */,
 				34C0CB561B3C295200B323C2 /* AppDelegate.m */,
+				34B95C441B3D55CF004CD9A4 /* PrefixHeader.pch */,
 				34B95C3B1B3D4922004CD9A4 /* AllMovieViewController.h */,
 				34B95C3C1B3D4922004CD9A4 /* AllMovieViewController.m */,
 				34B95C3E1B3D4957004CD9A4 /* SpecificViewController.h */,
