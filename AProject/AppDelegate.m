@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "AllMovieViewController.h"
+#import "SpecificViewController.h"
+#import "ClassifyViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,35 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //添加tabBarController
+    AllMovieViewController * allVC = [[AllMovieViewController alloc]init];
+     UINavigationController * nav1 = [[UINavigationController alloc]initWithRootViewController:allVC];
+    
+    
+    SpecificViewController * sVC = [[SpecificViewController alloc]init];
+    UINavigationController * nav2 = [[UINavigationController alloc]initWithRootViewController:sVC];
+    
+    ClassifyViewController * cVC = [[ClassifyViewController alloc]init];
+    UINavigationController * nav3 = [[UINavigationController alloc]initWithRootViewController:cVC];
+    
+    NSArray * vcArray = @[nav1 , nav2 , nav3];
+    UITabBarController * tab = [[UITabBarController alloc]init];
+    tab.viewControllers = vcArray;
+    self.window.rootViewController = tab;
+    //设置标题
+     nav1.tabBarItem.title = @"所有";
+    nav2 . tabBarItem .title = @"专辑";
+    nav3.tabBarItem.title = @"分类";
+    //设置bar颜色
+    tab.tabBar.barTintColor = [UIColor greenColor];
+    //设置默认选择
+    tab.selectedIndex = 0;
+    //设置tabbar的选中标题颜色；
+    tab.tabBar.tintColor = [UIColor blueColor];
+    
+    
+    
     return YES;
 }
 
