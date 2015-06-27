@@ -17,6 +17,7 @@
 		34C0CB5F1B3C295200B323C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C0CB5E1B3C295200B323C2 /* Images.xcassets */; };
 		34C0CB621B3C295200B323C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C0CB601B3C295200B323C2 /* LaunchScreen.xib */; };
 		34C0CB6E1B3C295200B323C2 /* AProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CB6D1B3C295200B323C2 /* AProjectTests.m */; };
+		34D2AE8B1B3D6A2400AEDDE8 /* ClassfyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2AE8A1B3D6A2400AEDDE8 /* ClassfyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		34C0CB671B3C295200B323C2 /* AProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C0CB6C1B3C295200B323C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C0CB6D1B3C295200B323C2 /* AProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AProjectTests.m; sourceTree = "<group>"; };
+		34D2AE891B3D6A2400AEDDE8 /* ClassfyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassfyView.h; sourceTree = "<group>"; };
+		34D2AE8A1B3D6A2400AEDDE8 /* ClassfyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassfyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				34B95C3F1B3D4957004CD9A4 /* SpecificViewController.m */,
 				34B95C411B3D49A3004CD9A4 /* ClassifyViewController.h */,
 				34B95C421B3D49A3004CD9A4 /* ClassifyViewController.m */,
+				34D2AE891B3D6A2400AEDDE8 /* ClassfyView.h */,
+				34D2AE8A1B3D6A2400AEDDE8 /* ClassfyView.m */,
 				34C0CB5B1B3C295200B323C2 /* Main.storyboard */,
 				34C0CB5E1B3C295200B323C2 /* Images.xcassets */,
 				34C0CB601B3C295200B323C2 /* LaunchScreen.xib */,
@@ -351,6 +356,7 @@
 				34C0CB571B3C295200B323C2 /* AppDelegate.m in Sources */,
 				34C0CB541B3C295200B323C2 /* main.m in Sources */,
 				34B95C3D1B3D4922004CD9A4 /* AllMovieViewController.m in Sources */,
+				34D2AE8B1B3D6A2400AEDDE8 /* ClassfyView.m in Sources */,
 				34B95C401B3D4957004CD9A4 /* SpecificViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

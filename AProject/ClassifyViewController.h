@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ClassfyView.h"
 @interface ClassifyViewController : UIViewController
-
+@property (nonatomic , retain) ClassfyView *classfyView;
 @end

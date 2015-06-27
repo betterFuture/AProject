@@ -13,12 +13,18 @@
 @end
 
 @implementation ClassifyViewController
+-(void)loadView{
+    self.classfyView = [[ClassfyView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.classfyView.backgroundColor = [UIColor orangeColor];
+    self.view = self.classfyView;
+    [self.classfyView release];
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"ClassifyViewController");
-     self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view.
+         // Do any additional setup after loading the view.
     //设置导航条颜色
     self.navigationController.navigationBar.barTintColor = [UIColor greenColor];
     //设置导航条透明度
@@ -32,7 +38,11 @@
     NSLog(@"leftBarButtonItemAction");
     
 }
-
+- (void)dealloc
+{
+    [_classfyView release];
+    [super dealloc];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
