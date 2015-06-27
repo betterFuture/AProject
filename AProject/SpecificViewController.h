@@ -10,4 +10,15 @@
 
 @interface SpecificViewController : UIViewController
 
+@property (nonatomic , retain) UITableView *aboveTableView;
+
+@property (nonatomic , retain) UIView *topView;
+
+@property (nonatomic , retain) UIView *buttomView;
+
+@property (nonatomic , retain) UIScrollView *videoScrollView;
+
+
+
+
 @end

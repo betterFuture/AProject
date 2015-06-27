@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343DE65C1B3ED7AE00CC315D /* NSData+SDDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 343DE64C1B3ED7AE00CC315D /* NSData+SDDataCache.m */; };
+		343DE65D1B3ED7AE00CC315D /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 343DE64F1B3ED7AE00CC315D /* TAAbstractDotView.m */; };
+		343DE65E1B3ED7AE00CC315D /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 343DE6511B3ED7AE00CC315D /* TAAnimatedDotView.m */; };
+		343DE65F1B3ED7AE00CC315D /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 343DE6531B3ED7AE00CC315D /* TADotView.m */; };
+		343DE6601B3ED7AE00CC315D /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 343DE6551B3ED7AE00CC315D /* TAPageControl.m */; };
+		343DE6611B3ED7AE00CC315D /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 343DE6571B3ED7AE00CC315D /* SDCollectionViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		343DE6621B3ED7AE00CC315D /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 343DE6591B3ED7AE00CC315D /* SDCycleScrollView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		343DE6631B3ED7AE00CC315D /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 343DE65B1B3ED7AE00CC315D /* UIView+SDExtension.m */; };
 		34B95C3A1B3D4868004CD9A4 /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34B95C391B3D4868004CD9A4 /* left@2x.png */; };
 		34B95C3D1B3D4922004CD9A4 /* AllMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B95C3C1B3D4922004CD9A4 /* AllMovieViewController.m */; };
 		34B95C401B3D4957004CD9A4 /* SpecificViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B95C3F1B3D4957004CD9A4 /* SpecificViewController.m */; };
@@ -31,6 +39,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		343DE64B1B3ED7AE00CC315D /* NSData+SDDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SDDataCache.h"; sourceTree = "<group>"; };
+		343DE64C1B3ED7AE00CC315D /* NSData+SDDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SDDataCache.m"; sourceTree = "<group>"; };
+		343DE64E1B3ED7AE00CC315D /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		343DE64F1B3ED7AE00CC315D /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		343DE6501B3ED7AE00CC315D /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		343DE6511B3ED7AE00CC315D /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		343DE6521B3ED7AE00CC315D /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		343DE6531B3ED7AE00CC315D /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		343DE6541B3ED7AE00CC315D /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		343DE6551B3ED7AE00CC315D /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		343DE6561B3ED7AE00CC315D /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		343DE6571B3ED7AE00CC315D /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		343DE6581B3ED7AE00CC315D /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		343DE6591B3ED7AE00CC315D /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		343DE65A1B3ED7AE00CC315D /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		343DE65B1B3ED7AE00CC315D /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
 		34B95C391B3D4868004CD9A4 /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@2x.png"; sourceTree = "<group>"; };
 		34B95C3B1B3D4922004CD9A4 /* AllMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllMovieViewController.h; sourceTree = "<group>"; };
 		34B95C3C1B3D4922004CD9A4 /* AllMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllMovieViewController.m; sourceTree = "<group>"; };
@@ -72,6 +96,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		343DE64A1B3ED7AE00CC315D /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				343DE64B1B3ED7AE00CC315D /* NSData+SDDataCache.h */,
+				343DE64C1B3ED7AE00CC315D /* NSData+SDDataCache.m */,
+				343DE64D1B3ED7AE00CC315D /* PageControl */,
+				343DE6561B3ED7AE00CC315D /* SDCollectionViewCell.h */,
+				343DE6571B3ED7AE00CC315D /* SDCollectionViewCell.m */,
+				343DE6581B3ED7AE00CC315D /* SDCycleScrollView.h */,
+				343DE6591B3ED7AE00CC315D /* SDCycleScrollView.m */,
+				343DE65A1B3ED7AE00CC315D /* UIView+SDExtension.h */,
+				343DE65B1B3ED7AE00CC315D /* UIView+SDExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		343DE64D1B3ED7AE00CC315D /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				343DE64E1B3ED7AE00CC315D /* TAAbstractDotView.h */,
+				343DE64F1B3ED7AE00CC315D /* TAAbstractDotView.m */,
+				343DE6501B3ED7AE00CC315D /* TAAnimatedDotView.h */,
+				343DE6511B3ED7AE00CC315D /* TAAnimatedDotView.m */,
+				343DE6521B3ED7AE00CC315D /* TADotView.h */,
+				343DE6531B3ED7AE00CC315D /* TADotView.m */,
+				343DE6541B3ED7AE00CC315D /* TAPageControl.h */,
+				343DE6551B3ED7AE00CC315D /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
 		34B95C381B3D473A004CD9A4 /* 图片 */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +281,7 @@
 		34C0CB821B3C2ADB00B323C2 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				343DE64A1B3ED7AE00CC315D /* SDCycleScrollView */,
 			);
 			name = Vendors;
 			sourceTree = "<group>";
@@ -352,9 +408,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343DE6611B3ED7AE00CC315D /* SDCollectionViewCell.m in Sources */,
+				343DE65E1B3ED7AE00CC315D /* TAAnimatedDotView.m in Sources */,
+				343DE65F1B3ED7AE00CC315D /* TADotView.m in Sources */,
 				34B95C431B3D49A3004CD9A4 /* ClassifyViewController.m in Sources */,
 				34C0CB571B3C295200B323C2 /* AppDelegate.m in Sources */,
 				34C0CB541B3C295200B323C2 /* main.m in Sources */,
+				343DE65D1B3ED7AE00CC315D /* TAAbstractDotView.m in Sources */,
+				343DE6631B3ED7AE00CC315D /* UIView+SDExtension.m in Sources */,
+				343DE6621B3ED7AE00CC315D /* SDCycleScrollView.m in Sources */,
 				34B95C3D1B3D4922004CD9A4 /* AllMovieViewController.m in Sources */,
 				34D2AE8B1B3D6A2400AEDDE8 /* ClassfyView.m in Sources */,
 				34B95C401B3D4957004CD9A4 /* SpecificViewController.m in Sources */,
