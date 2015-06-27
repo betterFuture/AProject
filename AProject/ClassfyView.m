@@ -51,7 +51,7 @@
         [self addSubview:button];
     }
 
-    
+    NSLog(@"hgsd");
 }
 -(void)buttonAction:(UIButton *)sender{
     UIButton *button = [[UIButton alloc]init];
