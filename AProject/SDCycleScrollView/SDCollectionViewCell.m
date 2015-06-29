@@ -23,10 +23,15 @@
 #import "SDCollectionViewCell.h"
 #import "UIView+SDExtension.h"
 
+@interface SDCollectionViewCell()
+
+@property(nonatomic, assign) UILabel *titleLabel;
+
+@end
+
+
 @implementation SDCollectionViewCell
-{
-    __weak UILabel *_titleLabel;
-}
+
 
 
 - (instancetype)initWithFrame:(CGRect)frame

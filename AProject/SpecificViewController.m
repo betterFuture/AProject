@@ -7,7 +7,7 @@
 //
 
 #import "SpecificViewController.h"
-#import "SDCycleScrollView.h"
+//#import "SDCycleScrollView.h"
 
 @interface SpecificViewController ()<UITableViewDataSource , UITableViewDelegate>
 
@@ -42,6 +42,7 @@
     self.aboveTableView.tableHeaderView = self.videoScrollView;
     self.videoScrollView.contentSize = CGSizeMake(self.view.frame.size.width * 5, 200);
     //自动滚动
+    NSLog(@"xiugai");
     
     
     
